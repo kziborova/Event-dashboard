@@ -2,7 +2,8 @@ import pandas as pd, numpy as np
 from pathlib import Path
 import html
 
-src = Path("events_processed_clean.csv")
+ROOT = Path(__file__).resolve().parents[1]
+src = ROOT / "events_processed_clean.csv"
 base = pd.read_csv(src)
 
 # Parse dates
@@ -133,7 +134,7 @@ final_ml = final[cols].copy()
 # Sanity: no missing in required cols
 assert final_ml.isna().sum().sum() == 0
 
-out = Path("events_final_dataset_synthetic.csv")
+out = ROOT / "events_final_dataset_synthetic.csv"
 final_ml.to_csv(out, index=False, encoding='utf-8')
 out.exists(), out.stat().st_size, final_ml.head(3)
 

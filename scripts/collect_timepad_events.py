@@ -1,4 +1,5 @@
 import os
+from pathlib import Path
 import time
 import random
 import logging
@@ -9,7 +10,7 @@ from datetime import datetime, timezone
 
 BASE_URL = "https://api.timepad.ru/v1/events.json"
 
-TIMEPAD_TOKEN = 
+TIMEPAD_TOKEN = os.environ.get("TIMEPAD_TOKEN", "")
 USE_TOKEN = bool(TIMEPAD_TOKEN)
 
 FIELDS = [
@@ -27,8 +28,9 @@ FIELDS = [
     "description_short",
 ]
 
-OUT_RAW = "events_raw_stream.csv"         # все проведенные (даже если participants пустой)
-OUT_ML = "events_ml_stream.csv"           # только где participants не пустой
+ROOT = Path(__file__).resolve().parents[1]
+OUT_RAW = ROOT / "events_raw_stream.csv"         # все проведенные (даже если participants пустой)
+OUT_ML = ROOT / "events_ml_stream.csv"           # только где participants не пустой
 LOG_LEVEL = logging.INFO
 
 def setup_logger():
