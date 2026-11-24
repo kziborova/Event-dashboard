@@ -1,5 +1,6 @@
 <p align="right"><a href="README.md">RU</a> · <b>EN</b></p>
-<h1 align="center">Event Attendance Optimizer</h1>
+<p align="center"><img src="assets/logo.svg" width="54" alt="Event Scenario Lab"></p>
+<h1 align="center">Event Scenario Lab</h1>
 <p align="center">Machine Learning · Data Analytics · Interactive Dashboard</p>
 <p align="center">Attendance forecasts and what-if analysis for event organizers.</p>
 <p align="center"><img src="assets/stack.svg" alt="Python · Scikit-learn · Streamlit · Pandas · Plotly"></p>

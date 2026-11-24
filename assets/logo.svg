@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Event Scenario Lab</title>
+  <rect x="1" y="1" width="62" height="62" rx="16" fill="#152939"/>
+  <path d="M15 46V34m11 12V29m11 17V35m11 11V19" fill="none" stroke="#bbccd5" stroke-width="5" stroke-linecap="round"/>
+  <path d="m15 27 11-9 11 7 11-14" fill="none" stroke="#ff7875" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>
