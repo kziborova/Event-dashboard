@@ -4,7 +4,7 @@
 <p align="center">Machine Learning · Data Analytics · Interactive Dashboard</p>
 <p align="center">Прогноз посещаемости мероприятий и сценарный анализ для организаторов.</p>
 <p align="center"><img src="assets/stack.svg" alt="Python · Scikit-learn · Streamlit · Pandas · Plotly"></p>
-<p align="center"><img src="assets/demo.svg" alt="Live Demo — Streamlit App"><br><sub>Публичная версия ожидает публикации. <a href="#quick-start">Запустить локально</a></sub></p>
+<p align="center"><a href="https://event-scenario-lab.streamlit.app/"><img src="assets/demo.svg" alt="Live Demo — Streamlit App"></a></p>
 <p align="center"><a href="event_analysis.ipynb">Jupyter Notebook ↗</a>　·　<a href="data/events_processed.csv">Dataset ↗</a>　·　<a href="streamlit_app.py">Source Code ↗</a></p>
 
 ---
