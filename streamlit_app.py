@@ -344,7 +344,7 @@ def _plot_correlation(df: pd.DataFrame) -> None:
 
 
 def page_overview(df: pd.DataFrame) -> None:
-    st.title("Event Scenario Lab")
+    st.title("Система анализа сценариев посещаемости мероприятий")
     st.caption("Дашборд для организаторов: анализ исторических данных + прогноз посещаемости + what-if сценарии.")
 
     c1, c2, c3, c4 = st.columns(4)
@@ -653,7 +653,7 @@ def page_model(df: pd.DataFrame, model: Any | None, feature_cols: list[str] | No
 
 
 def main() -> None:
-    st.set_page_config(page_title="Event Scenario Lab", layout="wide")
+    st.set_page_config(page_title="Event Attendance Optimizer", layout="wide")
 
     try:
         df = load_processed_data()
