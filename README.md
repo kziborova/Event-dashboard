@@ -1,4 +1,3 @@
-<p align="center"><img src="plots/logo.svg" width="54" alt="Event Scenario Lab"></p>
 <h1 align="center">Event Scenario Lab</h1>
 <p align="center">Machine Learning · Data Analytics · Interactive Dashboard</p>
 <p align="center">Прогноз посещаемости мероприятий и сценарный анализ для организаторов.</p>
