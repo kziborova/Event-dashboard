@@ -15,16 +15,16 @@
 
 ## Key features
 
-**▥　Data Analytics**<br>
+**Data Analytics**<br>
 Исследовательский анализ данных и интерактивные графики.
 
-**ƒ　Machine Learning**<br>
+**Machine Learning**<br>
 Прогнозирование посещаемости с помощью градиентного бустинга.
 
-**⇄　What-if Analysis**<br>
+**What-if Analysis**<br>
 Моделирование влияния цены, бюджета и времени проведения.
 
-**▤　Feature Importance**<br>
+**Feature Importance**<br>
 Анализ значимости входных признаков.
 
 ---
